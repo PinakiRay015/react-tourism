@@ -4,7 +4,7 @@ import { navitems } from '../constants'
 const Navbar = () => {
   return (
     <div className='w-full h-fit border-b' >
-      <div className='max-w-screen-xl h-16 mx-auto flex items-center justify-between' >
+      <div className='max-w-screen-xl h-[10vh] mx-auto flex items-center justify-between px-3' >
         <img className='cursor-pointer' src={brandLogo} alt="" />
         <nav className='flex gap-6 items-center' >
             {navitems.map((Element , id)=>(
