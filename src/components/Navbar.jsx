@@ -13,7 +13,7 @@ const Navbar = () => {
 
             <div className='buttons flex gap-6'>
                 <button className='border border-[#EB662B] px-2 py-1 rounded-[200px] text-[#EB662B] font-semibold' >Sign up</button>
-                <button className='bg-[#EB662B] rounded-[200px] text-white px-2 py-1 font-semibold' >Login in</button>
+                <button className='bg-[#EB662B] rounded-[200px] text-white px-2 py-1 font-semibold' >Log in</button>
             </div>
 
         </nav>
