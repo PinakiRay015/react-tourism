@@ -11,3 +11,50 @@
 {
     color: black;
 }
+
+/* Define styles for the vertical timeline */
+/* Define styles for the vertical timeline */
+.vertical-timeline-element-title {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element--work p {
+    margin-top: 0.5em;
+  }
+  
+  .vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vertical-timeline-element-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .vertical-timeline-element-content {
+    background: #f77f00;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vertical-timeline-element-date {
+    color: black;
+  }
+  
+  .vertical-timeline-element-icon {
+    background: #f77f00;
+    color: #fff;
+  }
+  
+  /* Custom styles for the vertical timeline line */
+  .vertical-timeline::before {
+    background: #ff5722;
+    width: 4px;
+  }
+  
+  

@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Ratings from "./Ratings";
 import TourOverview from "./TourOverview";
+import Packages from "./Packages";
+import TourPlan from "./TourPlan";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,7 +22,10 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full h-[90vh] py-3">
+      <div>
+
+        {/* Banner section  */}
+
       <div className="max-w-screen-xl mx-auto px-3 h-[100%]">
         <header className="flex justify-between my-5">
           <p>Home - Tours - Phuket</p>
@@ -96,9 +101,13 @@ const Hero = () => {
             );
           })}
         </Slider>
-        <TourOverview place={places[currentSlide]} />
       </div>
-    </div>
+        <TourOverview place={places[currentSlide]} />
+        <Packages/>
+        <TourPlan place={places[currentSlide]} />
+      </div>
+      
+ 
   );
 };
 

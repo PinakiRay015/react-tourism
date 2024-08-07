@@ -22,7 +22,7 @@ import {
   nl1,
   nl2,
   nl3,
-  nl4
+  nl4,
 } from "../utils";
 
 export const navitems = ["Destinations", "Activities", "USD"];
@@ -142,3 +142,18 @@ export const places = [
     ],
   },
 ];
+
+export const facilities = [
+  "Beverages, drinking water, morning tea and buffet lunch",
+  "Local taxes",
+  "Hotel pickup and drop-off by air-conditioned minivan",
+  "InsuranceTransfer to a private pier",
+  "Soft drinks",
+  "Tour Guide"
+];
+
+export const goods = [
+  "Towel",
+  "Tips",
+  "Alcoholic Beverages"
+]
