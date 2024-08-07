@@ -1,4 +1,5 @@
 import React from "react";
+import { MdFlight } from "react-icons/md";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -10,11 +11,11 @@ const Timeline = () => {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#f77f00", color: "#fff" }}
+        contentStyle={{backgroundColor:"#f77f00" ,  color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #f77f00, 243)" }}
         date="Day 1"
-        iconStyle={{ background: "#f77f00", color: "#fff" }}
-        icon={<span></span>} // Replace with an actual icon if needed
+        iconStyle={{ color: "#fff" }}
+        icon={<span>{}</span>} // Replace with an actual icon if needed
       >
         <h3 className="vertical-timeline-element-title">Airport Pick Up</h3>
       </VerticalTimelineElement>
