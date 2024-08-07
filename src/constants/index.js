@@ -1,8 +1,4 @@
 import {
-  destination1,
-  destination2,
-  destination3,
-  destination4,
   et1,
   et2,
   et3,
@@ -18,7 +14,15 @@ import {
   sp1,
   sp2,
   sp3,
-  sp4
+  sp4,
+  operaHouse1,
+  operaHouse2,
+  operaHouse3,
+  operaHouse4,
+  nl1,
+  nl2,
+  nl3,
+  nl4
 } from "../utils";
 
 export const navitems = ["Destinations", "Activities", "USD"];
@@ -102,10 +106,10 @@ export const places = [
   {
     id: 5,
     placeName: "Sydney Opera House Guided Tour",
-    img1: destination1,
-    img2: destination2,
-    img3: destination3,
-    img4: destination4,
+    img1: operaHouse1,
+    img2: operaHouse2,
+    img3: operaHouse3,
+    img4: operaHouse4,
     location: "Australia",
     booked: "25k+ Booked",
     rating: 4,
@@ -121,10 +125,10 @@ export const places = [
   {
     id: 6,
     placeName: "Northern Lights Chase in Tromsø",
-    img1: destination1,
-    img2: destination2,
-    img3: destination3,
-    img4: destination4,
+    img1: nl1,
+    img2: nl2,
+    img3: nl3,
+    img4: nl4,
     location: "Norway",
     booked: "10k+ Booked",
     rating: 5,

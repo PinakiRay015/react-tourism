@@ -3,7 +3,7 @@ import React from 'react'
 const TourOverview = ({place}) => {
   return (
     <div className='w-full h-fit my-5'>
-      <div className='max-w-screen-xl mx-auto' >
+      <div className='max-w-screen-xl mx-auto py-10 border-b border-zinc-700' >
         <h1 className='font-bold text-4xl' >Tour overview</h1>
         <div className='w-[55vw] my-5' >
             <p className='leading-7' >{place.about}</p>
