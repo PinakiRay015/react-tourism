@@ -3,6 +3,7 @@ import {
   et2,
   et3,
   et4,
+  eiffelVideo,
   gc1,
   gc2,
   gc3,
@@ -24,6 +25,10 @@ import {
   nl3,
   nl4,
 } from "../utils";
+
+import { GrMapLocation } from "react-icons/gr";
+import { GoTasklist } from "react-icons/go";
+import { CiDollar } from "react-icons/ci";
 
 export const navitems = ["Destinations", "Activities", "USD"];
 export const places = [
@@ -157,3 +162,52 @@ export const goods = [
   "Tips",
   "Alcoholic Beverages"
 ]
+
+export const faqs = [
+  {
+    id: 1,
+    question: "Can I get a refund?",
+    answer: "Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat cancellation policy: For a full refund, cancel at least 24 hours in advance of the start date of the experience. Discover and book Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat."
+  },
+  {
+    id: 2,
+    question: "What is included in the tour package?",
+    answer: "The tour package includes transportation, a guided tour of Phang Nga Bay, sea cave canoeing, a visit to James Bond Island, and a buffet lunch served on a big boat. Please check the specific tour details for any additional inclusions."
+  },
+  {
+    id: 3,
+    question: "How long does the tour last?",
+    answer: "The Phang Nga Bay Sea Cave Canoeing & James Bond Island tour typically lasts around 8 to 10 hours, including pick-up and drop-off times. The exact duration can vary depending on traffic and the specific itinerary."
+  },
+  {
+    id: 4,
+    question: "What should I bring for the tour?",
+    answer: "It's recommended to bring sunscreen, a hat, comfortable clothing, swimwear, a towel, and a camera. If you have any dietary restrictions, please inform us in advance so we can accommodate your needs during the buffet lunch."
+  },
+  {
+    id: 5,
+    question: "Is there a minimum age requirement for the tour?",
+    answer: "There is no specific minimum age requirement for the tour, but children must be accompanied by an adult. For safety reasons, please ensure that children are supervised at all times during the activities."
+  }
+];
+
+export const mobileNavMenu = [
+  {
+    id: 1,
+    icon : GrMapLocation,
+    item : "Destinations"
+  },
+  {
+    id: 2,
+    icon : GoTasklist,
+    item : "Activities"
+  },
+  {
+    id: 3,
+    icon : CiDollar,
+    item : "USD"
+  },
+  
+  
+]
+

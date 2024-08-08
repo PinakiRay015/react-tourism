@@ -69,11 +69,11 @@ const Hero = () => {
                 {/* img grid */}
                 <div className="grid grid-cols-6 grid-rows-4 gap-1 h-[55vh]">
                   <div className="col-span-6 row-span-2 md:col-span-4 md:row-span-4 h-[100%]">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={Element.img1}
-                      alt=""
-                    />
+                      <img
+                        className="w-full h-full object-cover"
+                        src={Element.img1}
+                        alt=""
+                      />
                   </div>
                   <div className="col-span-2 row-span-2 md:col-span-2 md:row-span-2 h-[100%]">
                     <img

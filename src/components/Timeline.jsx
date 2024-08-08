@@ -1,5 +1,4 @@
 import React from "react";
-import { MdFlight } from "react-icons/md";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +7,9 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
   return (
-    <VerticalTimeline>
+    <div className="w-full h-fit py-4">
+      <div className="max-w-4xl">
+      <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{backgroundColor:"#f77f00" ,  color: "#fff" }}
@@ -93,6 +94,8 @@ const Timeline = () => {
       </VerticalTimelineElement>
       {/* Add more VerticalTimelineElement components as needed */}
     </VerticalTimeline>
+      </div>
+    </div>
   );
 };
 

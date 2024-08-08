@@ -3,6 +3,7 @@ import effielTower1 from '../assets/effielTower1.jpg'
 import effielTower2 from '../assets/effielTower2.jpg'
 import effielTower3 from '../assets/effielTower3.jpg'
 import effielTower4 from '../assets/effielTower4.jpg'
+import eiffelTowerVideo from '../assets/effielTower.mp4'
 import grandCanyon1 from '../assets/grandCanyon1.jpg'
 import grandCanyon2 from '../assets/grandCanyon2.jpg'
 import grandCanyon3 from '../assets/grandCanyon3.jpg'
@@ -31,6 +32,7 @@ export const et1 = effielTower1;
 export const et2 = effielTower2;
 export const et3 = effielTower3;
 export const et4 = effielTower4;
+export const eiffelVideo = eiffelTowerVideo; 
 
 export const gc1 = grandCanyon1;
 export const gc2 = grandCanyon2;
