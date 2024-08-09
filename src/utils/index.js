@@ -27,6 +27,10 @@ import sydney4 from "../assets/sydney4.jpg";
 import reviewimg1 from "../assets/reviewimg1.svg";
 import reviewimg2 from "../assets/reviewimg3.svg";
 import reviewimg3 from "../assets/reviewimg2.svg";
+import similar1 from "../assets/similar1.svg";
+import similar2 from "../assets/similar2.svg";
+import similar3 from "../assets/similar3.svg";
+import similar4 from "../assets/similar4.svg";
 
 export const brandLogo = logo;
 
@@ -63,3 +67,7 @@ export const operaHouse4 = sydney4;
 export const reviewImg1 = reviewimg1;
 export const reviewImg2 = reviewimg2;
 export const reviewImg3 = reviewimg3;
+export const similarImg1 = similar1;
+export const similarImg2 = similar3;
+export const similarImg3 = similar2;
+export const similarImg4 = similar4;

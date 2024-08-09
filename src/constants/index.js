@@ -26,7 +26,11 @@ import {
   nl4,
   reviewImg1,
   reviewImg2,
-  reviewImg3
+  reviewImg3,
+  similarImg1,
+  similarImg2,
+  similarImg3,
+  similarImg4,
 } from "../utils";
 
 import { GrMapLocation } from "react-icons/gr";
@@ -317,3 +321,42 @@ export const review = [
 ]
 
 export const formTags = ["location" , "Amenities" , "Food" , "Room" , "Price" , "Tour operator"]
+
+export const similarTour = [
+  {
+    id : 1,
+    img : similarImg1,
+    location : "Paris, France",
+    title : "Centipede Tour - Guided Arizona Desert Tour by ATV",
+    rating : 4,
+    days : 4,
+    price : "$189.25"
+  },
+  {
+    id : 2,
+    img : similarImg3,
+    location : "New York, USA",
+    title : "Molokini and Turtle Town Snorkeling Adventure Aboard",
+    rating : 5,
+    days : 4,
+    price : "$225"
+  },
+  {
+    id : 3,
+    img : similarImg2,
+    location : "London, UK",
+    title : "Westminster Walking Tour & Westminster Abbey Entry",
+    rating : 3,
+    days : 4,
+    price : "$943"
+  },
+  {
+    id : 4,
+    img : similarImg4,
+    location : "New York, USA",
+    title : "All Inclusive Ultimate Circle Island Day Tour with Lunch",
+    rating : 5,
+    days : 4,
+    price : "$771"
+  },
+]

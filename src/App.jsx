@@ -6,6 +6,7 @@ import Cal from "./components/Cal";
 import  Faq  from "./components/Faq";
 import CustomerReview from "./components/CustomerReview";
 import Form from "./components/Form";
+import Simililar from "./components/Simililar";
 const App = () => {
   return (
       <div>
@@ -16,6 +17,7 @@ const App = () => {
         <Faq/>
         <CustomerReview/>
         <Form/>
+        <Simililar/>
       </div>
   );
 };
