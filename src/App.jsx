@@ -5,6 +5,7 @@ import MobileNav from "./components/MobileNav";
 import Cal from "./components/Cal";
 import  Faq  from "./components/Faq";
 import CustomerReview from "./components/CustomerReview";
+import Form from "./components/Form";
 const App = () => {
   return (
       <div>
@@ -14,6 +15,7 @@ const App = () => {
         <Cal/>
         <Faq/>
         <CustomerReview/>
+        <Form/>
       </div>
   );
 };

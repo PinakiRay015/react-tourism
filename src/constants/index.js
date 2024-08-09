@@ -24,6 +24,9 @@ import {
   nl2,
   nl3,
   nl4,
+  reviewImg1,
+  reviewImg2,
+  reviewImg3
 } from "../utils";
 
 import { GrMapLocation } from "react-icons/gr";
@@ -255,3 +258,62 @@ export const customerRatings = [
     rating : 5.0
   }
 ]
+
+export const review = [
+  {
+    id : 1,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+  {
+    id : 2,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+  {
+    id : 3,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+  {
+    id : 4,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+  {
+    id : 5,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+  {
+    id : 6,
+    usernameShort : "AT",
+    usernameLong : "Ali Tufan",
+    date : "april 2023",
+    heading : "Take this tour! Its fantastic!",
+    paragraph : "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+    imgseries : [reviewImg1 , reviewImg2 , reviewImg3] 
+  },
+]
+
+export const formTags = ["location" , "Amenities" , "Food" , "Room" , "Price" , "Tour operator"]
