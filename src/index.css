@@ -57,4 +57,9 @@
     width: 4px;
   }
   
+
+  .ratingBox> div:first-child{
+    grid-column: span 6;
+    background-color: #eb652b99;
+  }
   

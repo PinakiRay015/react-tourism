@@ -211,3 +211,47 @@ export const mobileNavMenu = [
   
 ]
 
+export const customerRatings = [
+  {
+    id : 1,
+    tag : "Overall rating",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 2,
+    tag : "Location",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 3,
+    tag : "Amenities",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 4,
+    tag : "Food",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 5,
+    tag : "Price",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 6,
+    tag : "Rooms",
+    span : "Excellent",
+    rating : 5.0
+  },
+  {
+    id : 7,
+    tag : "Tour operator",
+    span : "Excellent",
+    rating : 5.0
+  }
+]

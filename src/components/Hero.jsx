@@ -44,7 +44,7 @@ const Hero = () => {
             return (
               <section key={id} className="h-fit py-3">
                 {/* heading of the place */}
-                <h1 className="font-bold text-4xl">{Element.placeName}</h1>
+                <h1 className="font-semibold text-4xl">{Element.placeName}</h1>
 
                 {/* ratings and wishlist point and share section */}
                 <div className="flex items-center justify-between py-2">
