@@ -360,3 +360,21 @@ export const similarTour = [
     price : "$771"
   },
 ]
+
+export const footerElements = [
+  {
+    id : 1,
+    item : 'contact',
+    subitems : ['328 Queensberry Street, North Melbourne VIC3051,Australia.' , 'hi@viatours.com']
+  },
+  {
+    id : 2,
+    item : 'Company',
+    subitems : ['About Us' , 'Tour reviews' , 'contact us' , 'Travel guides' , 'Data policy' , 'cookie policy' , 'Legal' , 'sitemap']
+  },
+  {
+    id : 3,
+    item : 'support',
+    subitems : ['get in touch' , 'help center' , 'live chat' , 'how it works']
+  },
+]

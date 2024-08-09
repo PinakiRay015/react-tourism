@@ -7,6 +7,7 @@ import  Faq  from "./components/Faq";
 import CustomerReview from "./components/CustomerReview";
 import Form from "./components/Form";
 import Simililar from "./components/Simililar";
+import Footer from "./components/Footer";
 const App = () => {
   return (
       <div>
@@ -18,6 +19,7 @@ const App = () => {
         <CustomerReview/>
         <Form/>
         <Simililar/>
+        <Footer/>
       </div>
   );
 };
