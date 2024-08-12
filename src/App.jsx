@@ -13,7 +13,7 @@ const App = () => {
       <div>
         <Navbar />
         <Hero />
-        <MobileNav/>
+        {/* <MobileNav/> */}
         <Cal/>
         <Faq/>
         <CustomerReview/>

@@ -4,8 +4,8 @@ const Faq = () => {
 
 
   return (
-    <div className="max-w-screen-xl mx-auto h-fit py-4">
-      <div className="max-w-4xl px-4">
+    <div className="w-full h-fit py-4">
+      <div className="max-w-screen-xl mx-auto px-4">
         <h1 className="text-4xl font-bold">FAQ</h1>
         <div>
           {faqs.map((Element , id)=>(

@@ -15,8 +15,8 @@ const Cal = () => {
   const secondMonth = new Date(currentYear, currentMonth + 1);
 
   return (
-    <div className='max-w-screen-xl mx-auto h-fit py-4'>
-      <div className='max-w-4xl border-b px-4'>
+    <div className='w-full h-fit py-4'>
+      <div className='max-w-screen-xl mx-auto border-b px-4'>
         <h1 className='text-4xl font-bold py-3'>Plan your trip</h1>
         <div className="flex space-x-8 py-4">
           {/* First Calendar */}
@@ -30,7 +30,7 @@ const Cal = () => {
 
           {/* Second Calendar */}
           <Calendar
-            className="rounded-lg border-none hidden sm:block"
+            className="rounded-lg border-none hidden sm:block w-full"
             selectRange
             onChange={onChange}
             value={value}
