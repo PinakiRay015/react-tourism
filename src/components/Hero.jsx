@@ -8,6 +8,7 @@ import Ratings from "./Ratings";
 import TourOverview from "./TourOverview";
 import Packages from "./Packages";
 import TourPlan from "./TourPlan";
+import Price from "./Price";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,9 +23,8 @@ const Hero = () => {
   };
 
   return (
-      <div>
-
-        {/* Banner section  */}
+    <div>
+      {/* Banner section  */}
 
       <div className="max-w-screen-xl mx-auto px-3 h-[100%]">
         <header className="flex justify-between my-5">
@@ -69,11 +69,11 @@ const Hero = () => {
                 {/* img grid */}
                 <div className="grid grid-cols-6 grid-rows-4 gap-1 h-[55vh]">
                   <div className="col-span-6 row-span-2 md:col-span-4 md:row-span-4 h-[100%]">
-                      <img
-                        className="w-full h-full object-cover"
-                        src={Element.img1}
-                        alt=""
-                      />
+                    <img
+                      className="w-full h-full object-cover"
+                      src={Element.img1}
+                      alt=""
+                    />
                   </div>
                   <div className="col-span-2 row-span-2 md:col-span-2 md:row-span-2 h-[100%]">
                     <img
@@ -100,14 +100,17 @@ const Hero = () => {
               </section>
             );
           })}
-        </Slider>
+        </Slider>     
       </div>
-        <TourOverview place={places[currentSlide]} />
-        <Packages/>
-        <TourPlan place={places[currentSlide]} />
+      <div className="max-w-screen-xl mx-auto flex justify-between" >
+        <div className="" >
+          <TourOverview place={places[currentSlide]} />
+          <Packages />
+          <TourPlan place={places[currentSlide]} />
+        </div>
+        <Price />
       </div>
-      
- 
+    </div>
   );
 };
 
