@@ -2,7 +2,7 @@ import React from "react";
 
 const Price = () => {
   return (
-    <div className="price-card h-screen w-[25vw] border border-zinc-300 rounded-lg sticky top-0 mr-5 p-6 ">
+    <div className="price-card h-screen w-[25vw] border border-zinc-300 rounded-lg sticky top-0 mr-5 p-6 hidden lg:block">
       <header className="text-[#05073C]">
         From $<span className="font-semibold text-xl">1,200</span>
       </header>
